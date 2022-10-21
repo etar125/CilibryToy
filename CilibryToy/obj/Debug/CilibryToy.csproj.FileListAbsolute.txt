@@ -1,0 +1,12 @@
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\bin\Debug\CilibryToy.exe.config
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\bin\Debug\CilibryToy.exe
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\bin\Debug\CilibryToy.pdb
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\obj\Debug\CilibryToy.csprojResolveAssemblyReference.cache
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\obj\Debug\CilibryToy.MainForm.resources
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\obj\Debug\CilibryToy.csproj.GenerateResource.Cache
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\obj\Debug\CilibryToy.exe
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\obj\Debug\CilibryToy.pdb
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\obj\Debug\CilibryToy.test.resources
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\obj\Debug\CilibryToy.notepad.resources
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\obj\Debug\CilibryToy.browser.resources
+C:\Users\inniesharp\Documents\SharpDevelop Projects\CilibryToy\CilibryToy\obj\Debug\CilibryToy.explorer.resources
