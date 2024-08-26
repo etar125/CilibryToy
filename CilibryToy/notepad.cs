@@ -1,7 +1,4 @@
-﻿/*
-By InnieSharp(ix4/i#)
-*/
-using System;
+﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
@@ -10,9 +7,6 @@ using System.Diagnostics;
 
 namespace CilibryToy
 {
-	/// <summary>
-	/// Description of notepad.
-	/// </summary>
 	public partial class notepad : Form
 	{
 		public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -25,14 +19,7 @@ namespace CilibryToy
 		
 		public notepad()
 		{
-			//
-			// The InitializeComponent() call is required for Windows Forms designer support.
-			//
 			InitializeComponent();
-			
-			//
-			// TODO: Add constructor code after the InitializeComponent() call.
-			//
 		}
 		void Panel1MouseMove(object sender, MouseEventArgs e)
 		{

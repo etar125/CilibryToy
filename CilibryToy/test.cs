@@ -1,15 +1,11 @@
-﻿/*
-By InnieSharp(ix4/i#)
-*/
-using System;
+﻿using System;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Diagnostics;
+using System.Threading;
 
 namespace CilibryToy
 {
-	/// <summary>
-	/// Description of test.
-	/// </summary>
 	public partial class test : Form
 	{
 		public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -19,17 +15,12 @@ namespace CilibryToy
 		public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
 		[DllImportAttribute("user32.dll")]
 		public static extern bool ReleaseCapture();
+		[DllImport("user32.dll")]
+		static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
 		
 		public test()
 		{
-			//
-			// The InitializeComponent() call is required for Windows Forms designer support.
-			//
 			InitializeComponent();
-			
-			//
-			// TODO: Add constructor code after the InitializeComponent() call.
-			//
 		}
 		void Button1Click(object sender, EventArgs e)
 		{
@@ -60,6 +51,10 @@ namespace CilibryToy
 			explorer f = new explorer();
 			f.MdiParent = MainForm.ActiveForm;
 			f.Show();
+		}
+		void Button5Click(object sender, EventArgs e)
+		{
+			Process.Start("cmd");
 		}
 	}
 }
